@@ -4,6 +4,7 @@ name: "打卡"
 on:
   workflow_dispatch:  # 手动触发
   schedule:
+    - cron: "*/5 * * * *"
     # 使用 UTC 时间，UTC 时间 对应 北京时间 -8 小时
     - cron: "30 0 * * *"  # UTC 00:30 / 北京时间 08:30
     - cron: "0 1 * * *"  # UTC 01:00 / 北京时间 09:00
