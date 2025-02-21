@@ -44,7 +44,7 @@ def generate_article(
         f"根据用户提供的信息撰写一篇文章，内容流畅且符合中文语法规范，"
         f"不得使用 Markdown 语法，字数不少于 {count} 字。"
         f"文章需与职位描述相关，并符合以下模板："
-        f"\n\n模板：\n实习地点：xxxx\n\n工作内容：\n\nxxxxxx\n\n工作总结：\n\nxxxxxx\n\n"
+        f"\n\n模板：\n工作内容：\n\nxxxxxx\n\n工作总结：\n\nxxxxxx\n\n"
         f"遇到问题：\n\nxxxxxx\n\n自我评价：\n\nxxxxxx"
     )
 
